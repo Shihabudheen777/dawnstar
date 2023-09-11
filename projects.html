@@ -21,11 +21,12 @@ Author URL: http://w3layouts.com
 
 <body>
     <!--/Header-->
-    <header id="site-header" class="fixed-top">
+    <header id="site-header" class="fixed-top header-color">
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light stroke py-lg-0">
                 <h1><a class="navbar-brand" href="index.html">
                     <img src="assets/images/Untitled-1.png" alt="" class="img-fluid ">
+                  
                     </a></h1>
                 <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
@@ -34,7 +35,7 @@ Author URL: http://w3layouts.com
                 <div class="collapse navbar-collapse" id="navbarScroll">
                     <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                            <a class="nav-link s" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="about.html">About</a>
@@ -43,24 +44,23 @@ Author URL: http://w3layouts.com
                             <a class="nav-link active" href="projects.html">Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " href="services.html">Services</a>
+                            <a class="nav-link" href="services.html">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
+                            <a class="nav-link" href="contact.html">Contact Us</a>
                         </li>
                     </ul>
-
-                </div>
+               </div>
                 <!-- toggle switch for light and dark theme -->
                 <div class="mobile-position">
                     <nav class="navigation">
                         <div class="theme-switch-wrapper">
                             <label class="theme-switch" for="checkbox">
                                 <input type="checkbox" id="checkbox">
-                                <div class="mode-container">
+                                <!-- <div class="mode-container">
                                     <i class="gg-sun"></i>
                                     <i class="gg-moon"></i>
-                                </div>
+                                </div> -->
                             </label>
                         </div>
                     </nav>
@@ -96,28 +96,497 @@ Author URL: http://w3layouts.com
     <section class="w3l-witemshny-main py-5">
         <div class="container py-md-4">
             <!--/row-1-->
-            <h3 class="title-w3l mb-4">Our Major projects</h3>
+            <nav>
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                  <button class="nav-link active" id="nav-apartment-tab" data-bs-toggle="tab" data-bs-target="#nav-apartment" type="button" role="tab" aria-controls="nav-apartment" aria-selected="true">Residentail</button>
+                  <button class="nav-link" id="nav-Commercial-tab" data-bs-toggle="tab" data-bs-target="#nav-Commercial" type="button" role="tab" aria-controls="nav-Commercial" aria-selected="false">Commercial</button>
+                  <button class="nav-link" id="nav-health-care-tab" data-bs-toggle="tab" data-bs-target="#nav-health-care" type="button" role="tab" aria-controls="nav-health-care" aria-selected="false">Health Care</button>
+                  <button class="nav-link" id="nav-hotelsnresort-tab" data-bs-toggle="tab" data-bs-target="#nav-hotelsnresort" type="button" role="tab" aria-controls="nav-hotelsnresort " aria-selected="false">PWD Works</button>
+                  <button class="nav-link" id="nav-educational-tab" data-bs-toggle="tab" data-bs-target="#nav-educational" type="button" role="tab" aria-controls="nav-educational" aria-selected="false">Educational</button>
+                </div>
+              </nav>
+            
+
+            <!-- <h3 class="title-w3l mb-4">Our Major projects</h3> -->
+            <div class="tab-content" id="nav-tabContent">
+                <!-- Apartments Starts-->
+                <div class="tab-pane fade show active" id="nav-apartment" role="tabpanel" aria-labelledby="nav-apartment-tab">
+                    <div class="witemshny-grids row">
+                        <div class="col-md-4  product-incfhny mt-4">
+                            <div class="weitemshny-grid oposition-relative">
+                                <a href="#img" class="d-block zoom"><img src="assets/images/skyface1.jpg" alt="" class="img-fluid news-image"></a>
+                                <div class="witemshny-inf">
+                                </div>
+                            </div>
+                            <h4 class="gdnhy-1 mt-lg-4 mt-3 mb-4"><a href="#img">Sky Face Apartment of M/S Kallat Builders</a>
+                            </h4>
+                            <p class="custom-paramt-md-2">Electrification and installation of 200KVA transformer&62.5KVA DG set. And  Connected electrics of ten storied apartment building at Kalpatta Wayanad</p>
+                        </div>
+                        <div class="col-md-4  product-incfhny mt-4">
+                            <div class="weitemshny-grid oposition-relative">
+                                <a href="#img" class="d-block zoom"><img src="assets/images/noimg.jpg" alt="" class="img-fluid news-image"></a>
+                                <div class="witemshny-inf">
+                                </div>
+                            </div>
+                            <h4 class="gdnhy-1 mt-lg-4 mt-3 mb-4"><a href="#img">Express Housing Complex Pvt Ltd</a>
+                            </h4>
+                            <p class="custom-paramt-md-2">Electrification of multistoried apartment building at parayancheri,Kozhikode</p>
+                        </div>
+                        <div class="col-md-4  product-incfhny mt-4">
+                            <div class="weitemshny-grid oposition-relative">
+                                <a href="#img" class="d-block zoom"><img src="assets/images/noimg.jpg" alt="" class="img-fluid news-image"></a>
+                                <div class="witemshny-inf">
+                                </div>
+                            </div>
+                            <h4 class="gdnhy-1 mt-lg-4 mt-3 mb-4"><a href="#img">IST Bhavan<br>Jawaharnagar,Kozhikode</a>
+                            </h4>
+                            <p class="custom-paramt-md-2">Electrification and installation of 200KVA transformer & 40KVA DG set. And connected electrics of seven storied apartment building at Jawaharnagar,Kozhikode.</p>
+                        </div>
+                        <div class="col-md-4  product-incfhny mt-4">
+                            <div class="weitemshny-grid oposition-relative">
+                                <a href="#img" class="d-block zoom"><img src="assets/images/noimg.jpg" alt="" class="img-fluid news-image"></a>
+                                <div class="witemshny-inf">
+                                </div>
+                            </div>
+                            <h4 class="gdnhy-1 mt-lg-4 mt-3 mb-4"><a href="#img">Edakkulam apartments of Tharif Builders<br>Kozhikode</a>
+                            </h4>
+                            <p class="custom-paramt-md-2">Electrification and installation of 40KVA  DG set. And connected electrics of Four storied apartment building at Govindhapuram,Kozhukode.</p>
+                        </div>
+                        <div class="col-md-4  product-incfhny mt-4">
+                            <div class="weitemshny-grid oposition-relative">
+                                <a href="#img" class="d-block zoom"><img src="assets/images/noimg.jpg" alt="" class="img-fluid news-image"></a>
+                                <div class="witemshny-inf">
+                                </div>
+                            </div>
+                            <h4 class="gdnhy-1 mt-lg-4 mt-3 mb-4"><a href="#img">Rosegarden apartment of Meharin properties<br>NIT Kozhikode</a>
+                            </h4>
+                            <p class="custom-paramt-md-2">Electrification and installation of 160KVA Indoor transformer, 35 KVA DG set. And connected electrics of four storied apartment building at NIT, Kozhikode</p>
+                        </div>
+                        <div class="col-md-4  product-incfhny mt-4">
+                            <div class="weitemshny-grid oposition-relative">
+                                <a href="#img" class="d-block zoom"><img src="assets/images/noimg.jpg" alt="" class="img-fluid news-image"></a>
+                                <div class="witemshny-inf">
+                                </div>
+                            </div>
+                            <h4 class="gdnhy-1 mt-lg-4 mt-3 mb-4"><a href="#img">River Song Villement<br> Kozhikode</a>
+                            </h4>
+                            <p class="custom-paramt-md-2">Electrification of 28 flats in four storied apartment building near mampuzha,Pantheerankavu,Kozhikode.</p>
+                        </div>
+                        <div class="col-md-4  product-incfhny mt-4">
+                            <div class="weitemshny-grid oposition-relative">
+                                <a href="#img" class="d-block zoom"><img src="assets/images/noimg.jpg" alt="" class="img-fluid news-image"></a>
+                                <div class="witemshny-inf">
+                                </div>
+                            </div>
+                            <h4 class="gdnhy-1 mt-lg-4 mt-3 mb-4"><a href="#img">Dr.Muraleedharan's Residance<br>Kozhikode</a>
+                            </h4>
+                            <p class="custom-paramt-md-2">Electrification and installation of One on of 25KVA DG set and connected Electrics of 3 storied 10000 sqft residential building at kottakkal.</p>
+                        </div>
+                        <div class="col-md-4  product-incfhny mt-4">
+                            <div class="weitemshny-grid oposition-relative">
+                                <a href="#img" class="d-block zoom"><img src="assets/images/noimg.jpg" alt="" class="img-fluid news-image"></a>
+                                <div class="witemshny-inf">
+                                </div>
+                            </div>
+                            <h4 class="gdnhy-1 mt-lg-4 mt-3 mb-4"><a href="#img">Autumn Leaves Villa<br>Kozhikode</a>
+                            </h4>
+                            <p class="custom-paramt-md-2">Electrification and installation of no 200KVA transformer, no of 82.5 KVA DG set and connected electrics of 26 nos of Villa projects at Velliparamba,Kozhikode</p>
+                        </div>
+                        <div class="col-md-4  product-incfhny mt-4">
+                            <div class="weitemshny-grid oposition-relative">
+                                <a href="#img" class="d-block zoom"><img src="assets/images/noimg.jpg" alt="" class="img-fluid news-image"></a>
+                                <div class="witemshny-inf">
+                                </div>
+                            </div>
+                            <h4 class="gdnhy-1 mt-lg-4 mt-3 mb-4"><a href="#img">Antartis Developers<br>West Nadakkavu,Kozhikode</a>
+                            </h4>
+                            <p class="custom-paramt-md-2">Electrification and installation of  200KVA transformer 40KVA D.G set and connected electrics of 44 Villa project,Moozhikkal,Kozhikode</p>
+                        </div><div class="col-md-4  product-incfhny mt-4">
+                            <div class="weitemshny-grid oposition-relative">
+                                <a href="#img" class="d-block zoom"><img src="assets/images/noimg.jpg" alt="" class="img-fluid news-image"></a>
+                                <div class="witemshny-inf">
+                                </div>
+                            </div>
+                            <h4 class="gdnhy-1 mt-lg-4 mt-3 mb-4"><a href="#img">O V Mustahafa's residence<br>Mahi</a>
+                            </h4>
+                            <p class="custom-paramt-md-2">Electrification and installation of  63KVA  D.G set and connected electrics of 12000sqfeet residence building at Mahi.</p>
+                        </div>
+
+                        
+                    </div>
+                </div>
+                <!-- Apartments Ends-->
+
+                <!-- Commercial Starts-->
+                <div class="tab-pane fade" id="nav-Commercial" role="tabpanel" aria-labelledby="nav-Commercial-tab">
+                    <div class="witemshny-grids row">
+                        <div class="col-md-4  product-incfhny mt-4">
+                            <div class="weitemshny-grid oposition-relative">
+                                <a href="#img" class="d-block zoom"><img src="assets/images/skytower.jpg" class="img-fluid news-image"></a>
+                                <div class="witemshny-inf">
+                                </div>
+                            </div>
+                            <h4 class="gdnhy-1 mt-lg-4 mt-3 mb-4"><a href="#img">M/S Sky Tower<br>Bank Road Kozhikode</a>
+                            </h4>
+                            <p class="custom-para mt-md-2 ">Electrification and installation of 3 panel HT board, 400KVA transformer and 125KVA DG. And connected electrics of Ten storied Commercial Complex, Bank Road , Kozhikode</p>
+                        </div>
+                        <div class="col-md-4  product-incfhny mt-4">
+                            <div class="weitemshny-grid oposition-relative">
+                                <a href="#img" class="d-block zoom"><img src="assets/images/gokulam.jpg" alt="" class="img-fluid news-image"></a>
+                                <div class="witemshny-inf">
+                                </div>
+                            </div>
+                            <h4 class="gdnhy-1 mt-lg-4 mt-3 mb-4"><a href="#img">Gokulam Kalyanamandapam,<br>Kannur</a>
+                            </h4>
+                            <p class="custom-para mt-md-2">Electrification and installation 125KVA DG set. And connected electrics of three storied Commercial Complex,Chakkarakallu,Kannur
+                        </div>
+                        <div class="col-md-4  product-incfhny mt-4">
+                            <div class="weitemshny-grid oposition-relative">
+                                <a href="#img" class="d-block zoom"><img src="assets/images/markaz.jpg" class="img-fluid news-image"></a>
+                                <div class="witemshny-inf">
+                                </div>
+                            </div>
+                            <h4 class="gdnhy-1 mt-lg-4 mt-3 mb-4"><a href="#img">Markaz Saquafathi Sunniya<br>Kozhikode</a>
+                            </h4>
+                            <p class="custom-para mt-md-2 ">Electrification and maintenance four storied Commercial Complex Indhiragandhi Road,Kozhikode</p>
+                        </div>
+                        <div class="col-md-4  product-incfhny mt-4">
+                            <div class="weitemshny-grid oposition-relative">
+                                <a href="#img" class="d-block zoom"><img src="assets/images/radio.jpg" class="img-fluid news-image"></a>
+                                <div class="witemshny-inf">
+                                </div>
+                            </div>
+                            <h4 class="gdnhy-1 mt-lg-4 mt-3 mb-4"><a href="#img">National Radio Electric,Bharathan's Building,Thana,Kannur</a>
+                            </h4>
+                            <p class="custom-para mt-md-2 ">Electrification and installation of 25KVA DG set and connected electrics of 3 storied commercial complex,Thana,Kannur.</p>
+                        </div>
+                        <div class="col-md-4  product-incfhny mt-4">
+                            <div class="weitemshny-grid oposition-relative">
+                                <a href="#img" class="d-block zoom"><img src="assets/images/eon.jpg" class="img-fluid news-image"></a>
+                                <div class="witemshny-inf">
+                                </div>
+                            </div>
+                            <h4 class="gdnhy-1 mt-lg-4 mt-3 mb-4"><a href="#img">Eon properties Pvt.Ltd<br>Kozhikode</a>
+                            </h4>
+                            <p class="custom-para mt-md-2 ">Electrification and installation of 40KVA DG  and connected electrics of four storied commercial Complex at Malaparamba,Kozhikode.</p>
+                        </div>
+                        <div class="col-md-4  product-incfhny mt-4">
+                            <div class="weitemshny-grid oposition-relative">
+                                <a href="#img" class="d-block zoom"><img src="assets/images/noimg.jpg" class="img-fluid news-image"></a>
+                                <div class="witemshny-inf">
+                                </div>
+                            </div>
+                            <h4 class="gdnhy-1 mt-lg-4 mt-3 mb-4"><a href="#img">Happy Tower<br>VM Basheer road,Kozhikode</a>
+                            </h4>
+                            <p class="custom-para mt-md-2 ">Electrification and installation of 50KVA DG.  And connected electrics of Four storied Commercial Complex,VaikkamMuhammedBhaseer Raod,Kozhikode</p>
+                        </div>
+                        <div class="col-md-4  product-incfhny mt-4">
+                            <div class="weitemshny-grid oposition-relative">
+                                <a href="#img" class="d-block zoom"><img src="assets/images/noimg.jpg" class="img-fluid news-image"></a>
+                                <div class="witemshny-inf">
+                                </div>
+                            </div>
+                            <h4 class="gdnhy-1 mt-lg-4 mt-3 mb-4"><a href="#img">Marina Motors<br>Kynatty,Wayanad</a>
+                            </h4>
+                            <p class="custom-para mt-md-2 ">Electrification and installation of 160KVA transformer,125 KVA DG set. And connected electrics of Tata car  Showroom at Kynatty, Wayanad</p>
+                        </div>
+                        <div class="col-md-4  product-incfhny mt-4">
+                            <div class="weitemshny-grid oposition-relative">
+                                <a href="#img" class="d-block zoom"><img src="assets/images/marina tower.jpg" class="img-fluid news-image"></a>
+                                <div class="witemshny-inf">
+                                </div>
+                            </div>
+                            <h4 class="gdnhy-1 mt-lg-4 mt-3 mb-4"><a href="#img">Marina Tower<br>West Nadakkav,Kozhikode</a>
+                            </h4>
+                            <p class="custom-para mt-md-2 ">Electrification and installation of 200KVA Transformer,50 KVA DG set. And connected electrics of Four storied Commercial Complex, West Nadakkav, Kozhikode</p>
+                        </div>
+                        <div class="col-md-4  product-incfhny mt-4">
+                            <div class="weitemshny-grid oposition-relative">
+                                <a href="#img" class="d-block zoom"><img src="assets/images/noimg.jpg" class="img-fluid news-image"></a>
+                                <div class="witemshny-inf">
+                                </div>
+                            </div>
+                            <h4 class="gdnhy-1 mt-lg-4 mt-3 mb-4"><a href="#img">Jamalmuhammed Complex<br>Near PVS Hospital,Kozhikode</a>
+                            </h4>
+                            <p class="custom-para mt-md-2 ">Electrification and installation of 125KVA DG set And connected electrics of Four storied Commercial Complex</p>
+                        </div>
+                        <div class="col-md-4  product-incfhny mt-4">
+                            <div class="weitemshny-grid oposition-relative">
+                                <a href="#img" class="d-block zoom"><img src="assets/images/noimg.jpg" class="img-fluid news-image"></a>
+                                <div class="witemshny-inf">
+                                </div>
+                            </div>
+                            <h4 class="gdnhy-1 mt-lg-4 mt-3 mb-4"><a href="#img">Eon properties PvtLtd's,Empora view<br>Malaparamba,Kozhikode</a>
+                            </h4>
+                            <p class="custom-para mt-md-2 ">Electrification and installation of 315KVA Transformer & 200KVA DG set and connected electrics of 9 storied commercial complex near Malaparamba traffic signal Malaparamba, Kozhikode</p>
+                        </div>
+                        <div class="col-md-4  product-incfhny mt-4">
+                            <div class="weitemshny-grid oposition-relative">
+                                <a href="#img" class="d-block zoom"><img src="assets/images/noimg.jpg" class="img-fluid news-image"></a>
+                                <div class="witemshny-inf">
+                                </div>
+                            </div>
+                            <h4 class="gdnhy-1 mt-lg-4 mt-3 mb-4"><a href="#img">Santhosh Commercial Complex<br>Enghapuzha,Kozhikode</a>
+                            </h4>
+                            <p class="custom-para mt-md-2 ">Electrification of three storied commercial complex Enghapuzha,Kozhikode</p>
+                        </div>
+                        <div class="col-md-4  product-incfhny mt-4">
+                            <div class="weitemshny-grid oposition-relative">
+                                <a href="#img" class="d-block zoom"><img src="assets/images/noimg.jpg" class="img-fluid news-image"></a>
+                                <div class="witemshny-inf">
+                                </div>
+                            </div>
+                            <h4 class="gdnhy-1 mt-lg-4 mt-3 mb-4"><a href="#img">Emirates Tower<br>Mavoor Road,Kozhikode</a>
+                            </h4>
+                            <p class="custom-para mt-md-2 ">Electrification and installation of 250KVA transformer.And connected electrics of four storied  commercial building at Mavoor Road,Kozhikode</p>
+                        </div>
+                        <div class="col-md-4  product-incfhny mt-4">
+                            <div class="weitemshny-grid oposition-relative">
+                                <a href="#img" class="d-block zoom"><img src="assets/images/kvrtower.jpg" class="img-fluid news-image"></a>
+                                <div class="witemshny-inf">
+                                </div>
+                            </div>
+                            <h4 class="gdnhy-1 mt-lg-4 mt-3 mb-4"><a href="#img">KVR Tower<br>Mavoor Road,Kozhikode</a>
+                            </h4>
+                            <p class="custom-para mt-md-2 ">Electrification and installation of 400KVA transformer And two nos 82.5 KVA DG set and connected electrics of 5 storied commercial complex near National Hospital,Mavoor Road,Kozhikode</p>
+                        </div>
+                        <div class="col-md-4  product-incfhny mt-4">
+                            <div class="weitemshny-grid oposition-relative">
+                                <a href="#img" class="d-block zoom"><img src="assets/images/noimg.jpg" class="img-fluid news-image"></a>
+                                <div class="witemshny-inf">
+                                </div>
+                            </div>
+                            <h4 class="gdnhy-1 mt-lg-4 mt-3 mb-4"><a href="#img">KVR Hundai<br>Mavoor Road,Kozhikode</a>
+                            </h4>
+                            <p class="custom-para mt-md-2 ">Electrification and installation of KVR Hundai car showroom, I.G Road,Kozhikode</p>
+                        </div>
+                        <div class="col-md-4  product-incfhny mt-4">
+                            <div class="weitemshny-grid oposition-relative">
+                                <a href="#img" class="d-block zoom"><img src="assets/images/noimg.jpg" class="img-fluid news-image"></a>
+                                <div class="witemshny-inf">
+                                </div>
+                            </div>
+                            <h4 class="gdnhy-1 mt-lg-4 mt-3 mb-4"><a href="#img">Marina Motors Tata car showroom<br>Mavoor Road,Kozhikode</a>
+                            </h4>
+                            <p class="custom-para mt-md-2 ">Electrification and installation of Marina motors Tata car showroom, Westhill,Kozhikode</p>
+                        </div>
+                        <div class="col-md-4  product-incfhny mt-4">
+                            <div class="weitemshny-grid oposition-relative">
+                                <a href="#img" class="d-block zoom"><img src="assets/images/olivearcade.jpg" class="img-fluid news-image"></a>
+                                <div class="witemshny-inf">
+                                </div>
+                            </div>
+                            <h4 class="gdnhy-1 mt-lg-4 mt-3 mb-4"><a href="#img">Olive Arcade,NH Bypass Junction<br>Malaparamba,Kozhikode</a>
+                            </h4>
+                            <p class="custom-para mt-md-2 ">Electrification and installation of 315 KVA transformer, 82.5 KVA DG Set and connected electrics of 4 storied commercial building NH Bypass junction,Malaparamba,Kozhikode</p>
+                        </div>
+                        <div class="col-md-4  product-incfhny mt-4">
+                            <div class="weitemshny-grid oposition-relative">
+                                <a href="#img" class="d-block zoom"><img src="assets/images/novaarcade.jpg" class="img-fluid news-image"></a>
+                                <div class="witemshny-inf">
+                                </div>
+                            </div>
+                            <h4 class="gdnhy-1 mt-lg-4 mt-3 mb-4"><a href="#img">Nova Arcade<br>Malaparamba,Kozhikode</a>
+                            </h4>
+                            <p class="custom-para mt-md-2 ">Electrification and installation of 250 KVA transformer,100 KVA DG Set and connected electrics of 4 storied commercial building NH Bypass junction,Malaparamba,Kozhikode</p>
+                        </div>
+                        <div class="col-md-4  product-incfhny mt-4">
+                            <div class="weitemshny-grid oposition-relative">
+                                <a href="#img" class="d-block zoom"><img src="assets/images/mediaone.jpg" class="img-fluid news-image"></a>
+                                <div class="witemshny-inf">
+                                </div>
+                            </div>
+                            <h4 class="gdnhy-1 mt-lg-4 mt-3 mb-4"><a href="#img">Media One studio<br>Velliparamba,Kozhikode</a>
+                            </h4>
+                            <p class="custom-para mt-md-2 ">Electrification and installation of Media one studio complex,Velliparamba,Kozhikode</p>
+                        </div>
+                        <div class="col-md-4  product-incfhny mt-4">
+                            <div class="weitemshny-grid oposition-relative">
+                                <a href="#img" class="d-block zoom"><img src="assets/images/nandhilath.jpg" class="img-fluid news-image"></a>
+                                <div class="witemshny-inf">
+                                </div>
+                            </div>
+                            <h4 class="gdnhy-1 mt-lg-4 mt-3 mb-4"><a href="#img">Nandilath 'G' group <br>Nadakkavu,Kozhikode</a>
+                            </h4>
+                            <p class="custom-para mt-md-2 ">installation of 250KVA D.G set and Connected electrics of Nandilath showroom,Nadakkavu,Kozhikode</p>
+                        </div>
+                        <div class="col-md-4  product-incfhny mt-4">
+                            <div class="weitemshny-grid oposition-relative">
+                                <a href="#img" class="d-block zoom"><img src="assets/images/noimg.jpg" class="img-fluid news-image"></a>
+                                <div class="witemshny-inf">
+                                </div>
+                            </div>
+                            <h4 class="gdnhy-1 mt-lg-4 mt-3 mb-4"><a href="#img">KPM Arcade<br>Thondyad NH Bypass,Kozhikode</a>
+                            </h4>
+                            <p class="custom-para mt-md-2 ">Electrification and installation of 250 KVA transformer no 63 KVA D.g set and connected electrics of the commercial complex</p>
+                        </div>
+                        <!-- <div class="col-md-4  product-incfhny mt-4">
+                            <div class="weitemshny-grid oposition-relative">
+                                <a href="#img" class="d-block zoom"><img src="assets/images/marina tower.jpg" class="img-fluid news-image"></a>
+                                <div class="witemshny-inf">
+                                </div>
+                            </div>
+                            <h4 class="gdnhy-1 mt-lg-4 mt-3 mb-4"><a href="#img">KPM Arcade<br>Thondyad NH Bypass,Kozhikode</a>
+                            </h4>
+                            <p class="custom-para mt-md-2 ">installation of 250KVA & 63KVA D.G set and Connected electrics of Nandilath showroom,Nadakkavu,Kozhikode</p>
+                        </div> -->
+                </div>
+            </div>
+                <!-- Commercial Ends-->
+
+                <!-- Health Care Starts-->
+                <div class="tab-pane fade" id="nav-health-care" role="tabpanel" aria-labelledby="nav-health-care-tab">
+                    
+                    <div class="witemshny-grids row">
+                        <div class="col-md-4  product-incfhny mt-4">
+                            <div class="weitemshny-grid oposition-relative">
+                                <a href="#img" class="d-block zoom"><img src="assets/images/g4 copy.jpg" alt="" class="img-fluid news-image"></a>
+                                <div class="witemshny-inf">
+                                </div>
+                            </div>
+                            <h4 class="gdnhy-1 mt-lg-4 mt-3 mb-4"><a href="#img">Tely Medical Center<br>Thalassery,Kannur</a>
+                            </h4>
+                            <p class="custom-para mt-md-2">Electrification and installation 250KVA DG set. And connected electrics of six storied Hospital bulding at Thalassery,Kannur.</p>
+                        </div>
+                        <div class="col-md-4  product-incfhny mt-4">
+                            <div class="weitemshny-grid oposition-relative">
+                                <a href="#img" class="d-block zoom"><img src="assets/images/noimg.jpg" alt="" class="img-fluid news-image"></a>
+                                <div class="witemshny-inf">
+                                </div>
+                            </div>
+                            <h4 class="gdnhy-1 mt-lg-4 mt-3 mb-4"><a href="#img">Care Home<br>Kovoor</a>
+                            </h4>
+                            <p class="custom-para mt-md-2">Electrification and installation 100KVA DG set and 35 KW on grid solar system and connected electrics of 5 storied clinic building near medical collage,kovoor,Kozhikode connected electrics of five storied Hospital bulding at Thalassery,Kannur.</p>
+                        </div> <div class="col-md-4  product-incfhny mt-4">
+                            <div class="weitemshny-grid oposition-relative">
+                                <a href="#img" class="d-block zoom"><img src="assets/images/noimg.jpg" alt="" class="img-fluid news-image"></a>
+                                <div class="witemshny-inf">
+                                </div>
+                            </div>
+                            <h4 class="gdnhy-1 mt-lg-4 mt-3 mb-4"><a href="#img">Saroj Lab<br>Chalappuram,Kozhikode</a>
+                            </h4>
+                            <p class="custom-para mt-md-2">Electrification and installation 250KVA indoor tranaformer, no 82.5 KVA D.G set,1 no.125 KVA D.G set and connected electrics of 4 stories lab building Chalappuram,Kozhikode.</p>
+                        </div>
+                    </dimv>
+                </div>
+                </div>
+                 <!-- Health Care Starts-->
+
+                 <!-- Hotels & Resort-->
+                <div class="tab-pane fade" id="nav-hotelsnresort" role="tabpanel" aria-labelledby="nav-hotelsnresort-tab">
+                    <div class="witemshny-grids row">
+                        <div class="col-md-4  product-incfhny mt-4">
+                            <div class="weitemshny-grid oposition-relative">
+                                <a href="#img" class="d-block zoom"><img src="assets/images/noimg.jpg" alt="" class="img-fluid news-image"></a>
+                                <div class="witemshny-inf">
+                                </div>
+                            </div>
+                            <h4 class="gdnhy-1 mt-lg-4 mt-3 mb-4"><a href="#img">Kerala Water Authorities Booster<br> Pumping Station at Kadalundi</a>
+                            </h4>
+                            <p class="custom-para mt-md-2">Electrification and installation of 82.5KVA DG and 80HP motors and connected electrics</p>
+                        </div>
+                        <div class="col-md-4  product-incfhny mt-4">
+                            <div class="weitemshny-grid oposition-relative">
+                                <a href="#img" class="d-block zoom"><img src="assets/images/noimg.jpg" alt="" class="img-fluid news-image"></a>
+                                <div class="witemshny-inf">
+                                </div>
+                            </div>
+                            <h4 class="gdnhy-1 mt-lg-4 mt-3 mb-4"><a href="#img">Kerala Water Authorities Booster<br> Pumping Station at Kuruvatur</a>
+                            </h4>
+                            <p class="custom-para mt-md-2">Electrification and installation of 100KVA DG and 120HP motors and connected electrics</p>
+                        </div>
+                        <div class="col-md-4  product-incfhny mt-4">
+                            <div class="weitemshny-grid oposition-relative">
+                                <a href="#img" class="d-block zoom"><img src="assets/images/cyberpark.jpg" alt="" class="img-fluid news-image"></a>
+                                <div class="witemshny-inf">
+                                </div>
+                            </div>
+                            <h4 class="gdnhy-1 mt-lg-4 mt-3 mb-4"><a href="#img">Cyber Park<br>Palazhi Kozhikode</P></a>
+                            </h4>
+                            <p class="custom-para mt-md-2">Electrification and installation of 62KVA DG and connected electrics of administrative building of Cyber Park at Palazhi, Kozhikode</p>
+                        </div>
+                    </div>
+                </div>
+                 <!-- Hotels & Resort-->
+
+                  <!-- Educational-->
+                <div class="tab-pane fade" id="nav-educational" role="tabpanel" aria-labelledby="nav-educational-tab">
+                    <div class="witemshny-grids row">
+                        <div class="col-md-4  product-incfhny mt-4">
+                            <div class="weitemshny-grid oposition-relative">
+                                <a href="#img" class="d-block zoom"><img src="assets/images/cms.jpg" alt="" class="img-fluid news-image"></a>
+                                <div class="witemshny-inf">
+                                </div>
+                            </div>
+                            <h4 class="gdnhy-1 mt-lg-4 mt-3 mb-4"><a href="#img">Devagiri CMI Public School,Kovoor, Kozhikode</a>
+                            </h4>
+                            <p class="custom-para mt-md-2">Electrifaction and installation of 63KVA DG set. And connected electrics of four storied school building at  Kovoor,Kozhikode</p>
+                        </div>
+                        <div class="col-md-4  product-incfhny mt-4">
+                            <div class="weitemshny-grid oposition-relative">
+                                <a href="#img" class="d-block zoom"><img src="assets/images/tti.jpg" alt="" class="img-fluid news-image"></a>
+                                <div class="witemshny-inf">
+                                </div>
+                            </div>
+                            <h4 class="gdnhy-1 mt-lg-4 mt-3 mb-4"><a href="#img">Technical  Training Foundation Thalassery</a>
+                            </h4>
+                            <p class="custom-para mt-md-2">Electrifaction and maintenance of three storied school building at Thalassery,Kannur</p>
+                    </div>
+                    <div class="col-md-4  product-incfhny mt-4">
+                        <div class="weitemshny-grid oposition-relative">
+                            <a href="#img" class="d-block zoom"><img src="assets/images/markazsaqaft.jpg" alt="" class="img-fluid news-image"></a>
+                            <div class="witemshny-inf">
+                            </div>
+                        </div>
+                        <h4 class="gdnhy-1 mt-lg-4 mt-3 mb-4"><a href="#img">Markaz Saquafathi Sunniya<br>Karanthur,Kozhikode.</a>
+                        </h4>
+                        <p class="custom-para mt-md-2">Electrifaction of four  storied English Medium School Building,Karanthur,Kozhikode</p>
+                </div>
+                <div class="col-md-4  product-incfhny mt-4">
+                    <div class="weitemshny-grid oposition-relative">
+                        <a href="#img" class="d-block zoom"><img src="assets/images/markazgirls.jpg" alt="" class="img-fluid news-image"></a>
+                        <div class="witemshny-inf">
+                        </div>
+                    </div>
+                    <h4 class="gdnhy-1 mt-lg-4 mt-3 mb-4"><a href="#img">Markaz Girls Higher Seconady School,Karanthur,Kozhikode<br></a>
+                    </h4>
+                    <p class="custom-para mt-md-2">Electrifaction of four storied Girls Higher Secondary School Karanthur,Kozhikode</p>
+            </div>
+            <div class="col-md-4  product-incfhny mt-4">
+                <div class="weitemshny-grid oposition-relative">
+                    <a href="#img" class="d-block zoom"><img src="assets/images/christiancollege.jpg" alt="" class="img-fluid news-image"></a>
+                    <div class="witemshny-inf">
+                    </div>
+                </div>
+                <h4 class="gdnhy-1 mt-lg-4 mt-3 mb-4"><a href="#img">Malabar Christian collage<br>Kozhikode</a>
+                </h4>
+                <p class="custom-para mt-md-2">Electrifaction of 3 storied hostel building near CSI building,Manachira,Kozhikode</p>
+        </div>
+        <div class="col-md-4  product-incfhny mt-4">
+            <div class="weitemshny-grid oposition-relative">
+                <a href="#img" class="d-block zoom"><img src="assets/images/mes.jpg" alt="" class="img-fluid news-image"></a>
+                <div class="witemshny-inf">
+                </div>
+            </div>
+            <h4 class="gdnhy-1 mt-lg-4 mt-3 mb-4"><a href="#img">MES Residentail School<br>Kalathod,Kozhikode</a>
+            </h4>
+            <p class="custom-para mt-md-2">Electrifaction AND installation of 63KVA D.G set and connected electrics of 12000sqfeet residence building at Mahi.</p>
+    </div>
+                </div>
+                </div>
+                 <!-- Educational-->
+
+                  <!-- Convention Center-->
+              
+                 <!-- Convention Center-->
+
+            
+
+
+<!-- 
             <div class="witemshny-grids row">
-                <div class="col-md-4  product-incfhny mt-4">
-                    <div class="weitemshny-grid oposition-relative">
-                        <a href="#img" class="d-block zoom"><img src="assets/images/skyface1.jpg" alt="" class="img-fluid news-image"></a>
-                        <div class="witemshny-inf">
-                        </div>
-                    </div>
-                    <h4 class="gdnhy-1 mt-lg-4 mt-3 mb-4"><a href="#img">Sky Face Apartment of M/S Kallat Builders</a>
-                    </h4>
-                    <p class="custom-paramt-md-2">Electrification and installation of 200K VA transformer&62.5KVA DG set. And  Connected electrics of ten storied apartment building at Kalpatta Wayanad</p>
-                </div>
-                <div class="col-md-4  product-incfhny mt-4">
-                    <div class="weitemshny-grid oposition-relative">
-                        <a href="#img" class="d-block zoom"><img src="assets/images/skytower.jpg" class="img-fluid news-image"></a>
-                        <div class="witemshny-inf">
-                        </div>
-                    </div>
-                    <h4 class="gdnhy-1 mt-lg-4 mt-3 mb-4"><a href="#img">M/S Sky Tower, Bank Road,Kozhikode</a>
-                    </h4>
-                    <p class="custom-para mt-md-2 ">Electrification and installation of 3 panel HT board, 400KVA transformer and 125KVA DG. And connected electrics of Ten storied Commercial Complex, Bank Road , Kozhikode</p>
-                </div>
+                
+                
                 <div class="col-md-4  product-incfhny mt-4">
                     <div class="weitemshny-grid oposition-relative">
                         <a href="#img" class="d-block zoom"><img src="assets/images/g4 copy.jpg" alt="" class="img-fluid news-image"></a>
@@ -179,7 +648,7 @@ Author URL: http://w3layouts.com
                     <p class="custom-para mt-md-2">Electrifaction and installation of 63KVA DG set. And connected electrics of four storied school building at  Kovoor,Kozhikode</p>
                 </div>
 
-            </div>
+            </div> -->
             
         </div>
     </section>
